@@ -19,7 +19,7 @@ export default {
     </div>
 
     <div class="flex flex-col justify-center h-full z-2">
-      <hr class="w-48 border-t-5 border-vgreen" />
+      <hr class="w-48 border-t-5 border-vgreen" style="border-color: #3178c6 !important;" />
       <div class="mt-4">
         <slot />
       </div>

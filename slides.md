@@ -1,6 +1,8 @@
 ---
 # try also 'default' to start simple
 theme: vuetiful
+# themeConfig:
+#   primary: #3178c6
 class: 'text-center'
 # emoji : https://emojipedia.org/twitter/
 # https://sli.dev/custom/highlighters.html

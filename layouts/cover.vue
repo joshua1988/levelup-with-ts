@@ -34,6 +34,7 @@ export default {
             text-center
             shadow-xl shadow-light-500
           "
+          style="border-color: #3178c6 !important;"
         >
           <slot />
         </div>

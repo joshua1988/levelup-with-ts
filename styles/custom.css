@@ -12,3 +12,7 @@ svg {
   font-size: 1.2rem;
 }
 
+.slidev-layout li::marker {
+  color: #3178c6;
+}
+
