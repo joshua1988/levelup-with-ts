@@ -68,11 +68,11 @@ layout: big-points
 <div class="contents-custom">
   <ul>
     <li>프런트엔드 입문자의 고민</li>
-    <li>타입스크립트 소개</li>
-    <li>타입스크립트를 도입하기 어려운 이유?</li>
-    <li>타입스크립트 소개</li>
-    <!-- <li></li>
-    <li></li> -->
+    <li>타입스크립트가 뭐길래</li>
+    <li>다들 왜 타입스크립트를 쓸까</li>
+    <li>타입스크립트의 개발자 경험</li>
+    <li>현실적인 고민과 해결방법</li>
+    <li>타입스크립트 배우기</li>
   </ul>
 </div>
 
@@ -527,7 +527,7 @@ layout: section
 </div>
 
 <div class="mt-2" style="text-align: right;">
-  <a href="https://joshua1988.github.io/ts" target="_blank">https://joshua1988.github.io/ts</a>
+  <a href="https://typescriptlang.org" target="_blank">https://typescriptlang.org</a>
 </div>
 
 ---
@@ -572,7 +572,7 @@ titleRow: true
 # 2년간 집필한 타입스크립트 책이 곧 출간됩니다.
 
 <div class="flex" style="height: 40%; justify-content: center;">
-  <img style="height: 100%;" src="/길벗 머시기.png"/>
+  <img style="height: 80%;" src="/book-cover.png"/>
 </div>
 
 ---
@@ -582,7 +582,7 @@ youtubeUrl: https://bit.ly/3mgTeWZ
 repository: 'github.com/joshua1988'
 ---
 
-<div style="color: white;">
+<div>
   <p style="margin-bottom: 2rem">감사합니다.</p>
   <!-- <p>Q & A</p> -->
 </div>

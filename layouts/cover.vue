@@ -12,9 +12,10 @@ export default {
   <div class="slidev-layout cover flex items-center justify-center">
     <div class="absolute inset-0 z-1">
       <img
-        :src="altCover ? '/bg-cover.svg' : '/bg-cover.svg'"
+        :src="altCover ? '/ts-wallpaper.png' : '/bg-cover.svg'"
         alt=""
         :class="$slidev.nav.clicks ? 'opacity-50' : 'opacity-80'"
+        style="height: 100% !important;"
       />
     </div>
     <div v-click class="w-full absolute z-2">

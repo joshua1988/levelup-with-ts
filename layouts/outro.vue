@@ -38,17 +38,7 @@ export default defineComponent({
 </script>
 <template>
   <div class="slidev-layout outro">
-    <div class="absolute inset-0 -z-1">
-      <transition appear name="outro">
-        <img
-          src="/bg-outro.svg"
-          alt=""
-          v-if="$slidev.nav.currentLayout === 'outro'"
-          class="opacity-80"
-        />
-      </transition>
-    </div>
-    <h1 v-if="$props.showTitle !== false" class="text-center !text-5xl">
+    <h1 v-if="$props.showTitle !== false" class="text-center !text-5xl" style="color: black;">
       {{ $props.title }}
     </h1>
     <div class="absolute left-12 top-[200px] right-12 text-center text-5xl">
@@ -56,7 +46,7 @@ export default defineComponent({
     </div>
     <div
       data-x="links"
-      class="text-white absolute bottom-8 left-4 flex flex-col gap-2"
+      class="absolute bottom-8 left-4 flex flex-col gap-2"
     >
       <div v-if="$props.twitter" data-x="twitter">
         <logos-twitter class="inline-block mr-3" />
