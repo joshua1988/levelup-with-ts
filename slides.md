@@ -19,6 +19,7 @@ info: |
 drawings:
   persist: false
 altCover: true
+monaco: true
 ---
 
 # 타입스크립트로 FE 개발 레벨업
