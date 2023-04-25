@@ -72,7 +72,7 @@ layout: big-points
     <li>타입스크립트가 뭐길래</li>
     <li>다들 왜 타입스크립트를 쓸까</li>
     <li>타입스크립트의 개발자 경험</li>
-    <li>현실적인 고민과 해결방법</li>
+    <li>현실적인 고민</li>
     <li>타입스크립트 배우기</li>
   </ul>
 </div>
@@ -323,7 +323,7 @@ sum(10, '20');
 layout: section
 ---
 
-# 현실적인 고민과 해결 방법
+# 현실적인 고민
 
 ---
 layout: big-points
@@ -440,7 +440,7 @@ sum(10, '20');
  * @return {Promise<User>} 사용자 정보
  **/
 function fetchUserById(id) {
-  const url = `https://infcon.day/users/${id}`;
+  const url = `https://ts.levelup/users/${id}`;
   return fetch(url).then(res => res.json());
     // { name: 'capt', age: 100 }
 }
@@ -478,7 +478,7 @@ function fetchUserById(id) {
  * @return {Promise<User>} 사용자 정보
  **/
 function fetchUserById(id) {
-  const url = `https://infcon.day/users/${id}`;
+  const url = `https://ts.levelup/users/${id}`;
   return fetch(url).then(res => res.json());
 }
 ```
@@ -494,7 +494,7 @@ interface User {
 }
 
 function fetchUserById(id: number): Promise<User> {
-  const url = `https://infcon.day/users/${id}`;
+  const url = `https://ts.levelup/users/${id}`;
   return fetch(url).then(res => res.json());
 }
 ```
@@ -505,7 +505,7 @@ function fetchUserById(id: number): Promise<User> {
 layout: big-points
 ---
 
-# <Badge type="warn" style="font-size: 0.9em;line-height: 1.1em;">결론</Badge>
+# <Badge type="info" style="font-size: 0.9em;line-height: 1.1em;">결론</Badge>
 # TS가 어렵다면 JSDoc으로 시작해보고
 # 재밌어지면 TS를 차근히 배워보자
 
@@ -573,17 +573,16 @@ titleRow: true
 # 2년간 집필한 타입스크립트 책이 곧 출간됩니다.
 
 <div class="flex" style="height: 40%; justify-content: center;">
-  <img style="height: 80%;" src="/book-cover.png"/>
+  <img style="height: 80%;" src="/book-cover.jpg"/>
 </div>
 
 ---
 layout: outro
 website: 'https://joshua1988.github.io'
-youtubeUrl: https://bit.ly/3mgTeWZ
+youtubeUrl: https://www.youtube.com/@captainpangyo
 repository: 'github.com/joshua1988'
 ---
 
 <div>
   <p style="margin-bottom: 2rem">감사합니다.</p>
-  <!-- <p>Q & A</p> -->
 </div>
