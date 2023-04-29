@@ -570,7 +570,7 @@ titleRow: true
 
 ---
 
-# 2년간 집필한 타입스크립트 책이 곧 출간됩니다.
+# 2년간 열심히 썼습니다
 
 <div class="flex" style="height: 40%; justify-content: center;">
   <img style="height: 80%;" src="/book-cover.jpg"/>
