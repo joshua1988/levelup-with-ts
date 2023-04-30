@@ -168,7 +168,7 @@ layout: section
 
 ---
 
-# 유지보수가 쉽고 생산성이 높다?
+# 유지보수가 쉽고 생산성이 높아서?
 
 <div class="flex" style="height: 100%; justify-content: center;">
   <img style="height: 80%;" src="/dx1.png"/>
@@ -176,7 +176,7 @@ layout: section
 
 ---
 
-# 유지보수가 쉽고 생산성이 높다?
+# 유지보수가 쉽고 생산성이 높아서?
 
 <div class="flex" style="height: 100%; justify-content: center;">
   <img style="height: 80%;" src="/dx2.png"/>
